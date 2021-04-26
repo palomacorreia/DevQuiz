@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 
 import 'home_repository.dart';
 
-class HomeControler {
+class HomeController {
   final stateNotifier = ValueNotifier<HomeState>(HomeState.empty);
 
   set state(HomeState state) => stateNotifier.value = state;
